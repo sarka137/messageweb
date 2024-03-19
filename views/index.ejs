@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Podivné zprávy</h1>
+    </header>
+    <main>
+        <div>
+            <form action="/submit" method="post">
+                <div>
+                <label for="author">Autor</label>
+                <input type="text" id="author" name="author" required>
+                </div>
+                <div>
+                <label for="message">Zpráva:</label><br>
+                <textarea name="message" id="message" required></textarea><br>
+                
+                <button type="submit">Odeslat</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2024 - IT2</p>
+    </footer>
+</body>
+</html>

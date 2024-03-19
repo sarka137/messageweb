@@ -1,0 +1,24 @@
+h1 {
+    color:white;
+    background-color: cadetblue;
+}
+
+p{
+    color: black;
+    background-color: cadetblue;
+    border: 2px;
+    border-style: dotted;
+}
+
+table {
+   
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: blueviolet;
+}
